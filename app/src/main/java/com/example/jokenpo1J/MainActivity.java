@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -65,10 +66,10 @@ public class MainActivity extends AppCompatActivity {
 
         } else if (
                 (opcaoSelecionada == "tesoura" && opcaoapp == "papel") ||
-                (opcaoSelecionada == "papel" && opcaoapp == "pedra") ||
-                (opcaoSelecionada == "pedra" && opcaoapp == "tesoura")
+                        (opcaoSelecionada == "papel" && opcaoapp == "pedra") ||
+                        (opcaoSelecionada == "pedra" && opcaoapp == "tesoura")
 
-        ){
+        ) {
             TextResultado.setText("Você Ganhou");
 
         } else {
